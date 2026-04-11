@@ -5,6 +5,7 @@ import gsap from "gsap";
 import MessageSection from "./sections/MessageSection";
 import FlavorSection from "./sections/FlavorSection";
 import NutritionSection from "./sections/NutritionSection";
+import BenefitSection from "./sections/BenefitSection";
 
 gsap.registerPlugin(ScrollTrigger, SplitText,ScrollSmoother)
 
@@ -21,6 +22,7 @@ const App = () => {
       <MessageSection/>
       <FlavorSection/>
       <NutritionSection/>
+      <BenefitSection/>
     </main>
   )
 }
